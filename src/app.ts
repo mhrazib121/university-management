@@ -1,4 +1,4 @@
-import express, { Application } from 'express';
+import express, { Application, Response, Request } from 'express'
 import cors from 'cors'
 const app: Application = express()
 
@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded())
 
-app.get('/', (req: any, res: any) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!')
 })
 
