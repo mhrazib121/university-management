@@ -13,4 +13,4 @@ async function main() {
     console.log('Mongoose connection failed')
   }
 }
-main()
+main();
