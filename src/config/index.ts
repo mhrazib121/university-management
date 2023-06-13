@@ -1,10 +1,9 @@
 import dotenv from 'dotenv'
 import path from 'path'
-// import logger from '../shared/logger'
 
 dotenv.config({ path: path.join(process.cwd(), '.env') })
-// logger.info(process)
 export default {
   port: process.env.PORT,
   database_url: process.env.DATABASE_URL,
+  default_user_pass: process.env.DEFAULT_USER_PASS,
 }
