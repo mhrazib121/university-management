@@ -1,4 +1,5 @@
 import config from "../../../config";
+import { successLogger } from "../../../shared/logger";
 import { IUser } from "./user.interface";
 import { User } from "./user.model";
 import { generateUserId } from "./users.utils";
@@ -9,6 +10,7 @@ const createUsers = async (
     // Default password
     if (!user.password) {
         user.password = config.default_user_pass as string;
+        successLogger.info(config.default_user_pass as string);
     }
 
     // Set role
@@ -28,4 +30,4 @@ const createUsers = async (
 };
 export const UserServices = {
     createUsers,
-}
+};

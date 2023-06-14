@@ -1,0 +1,36 @@
+[University error] error: {
+  id: '00001',
+  role: 'student',
+  password: 'sdfsjkdf',
+  _id: new ObjectId("64883161cfa32fdf65dbed22"),
+  createdAt: 2023-06-13T09:05:37.072Z,
+  updatedAt: 2023-06-13T09:05:37.072Z,
+  __v: 0
+} Tue Jun 13 2023 15:05:37 GMT+0600 (Bangladesh Standard Time) 15:5:37
+[University error] error: {
+  id: '00002',
+  role: 'student',
+  password: 'sdfsjkdf',
+  _id: new ObjectId("648848adcfa32fdf65dbed25"),
+  createdAt: 2023-06-13T10:45:01.004Z,
+  updatedAt: 2023-06-13T10:45:01.004Z,
+  __v: 0
+} Tue Jun 13 2023 16:45:01 GMT+0600 (Bangladesh Standard Time) 16:45:1
+[University error] error: {
+  id: '00003',
+  role: 'student',
+  password: 'sdfsjkdf',
+  _id: new ObjectId("64899486c90708369a2f3060"),
+  createdAt: 2023-06-14T10:20:54.392Z,
+  updatedAt: 2023-06-14T10:20:54.392Z,
+  __v: 0
+} Wed Jun 14 2023 16:20:54 GMT+0600 (Bangladesh Standard Time) 16:20:54
+[University error] error: {
+  id: '00004',
+  role: 'student',
+  password: 'sdfsjkdf',
+  _id: new ObjectId("648995f79aec8fa5f657d5cd"),
+  createdAt: 2023-06-14T10:27:03.104Z,
+  updatedAt: 2023-06-14T10:27:03.104Z,
+  __v: 0
+} Wed Jun 14 2023 16:27:03 GMT+0600 (Bangladesh Standard Time) 16:27:3
