@@ -1,4 +1,5 @@
 import config from "../../../config";
+import ApiError from "../../../errors/ApiError";
 import { successLogger } from "../../../shared/logger";
 import { IUser } from "./user.interface";
 import { User } from "./user.model";
@@ -14,7 +15,7 @@ const createUsers = async (
     }
 
     // Set role
-    user.role = 'student';
+    // user.role = 'student';
 
     // User Id 
     const id = await generateUserId();
@@ -23,7 +24,7 @@ const createUsers = async (
     const createUser = await User.create(user);
 
     if (!createUser) {
-        throw new Error("Failed to create user")
+        throw new ApiError(400, "Failed to create user Api")
     }
     return createUser;
 
