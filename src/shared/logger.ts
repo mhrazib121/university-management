@@ -29,7 +29,7 @@ const successLogger = createLogger({
     ],
 });
 const errorLogger = createLogger({
-    level: 'info',
+    level: 'error',
     format: combine(
         label({ label: 'University error' }),
         timestamp(),
@@ -37,7 +37,7 @@ const errorLogger = createLogger({
     ),
     transports: [
         new transports.Console(),
-        new transports.File({ filename: path.join(process.cwd(), 'logs', 'winston', 'errors', 'error.log'), level: 'error' }),
+        new transports.File({ filename: path.join(process.cwd(), 'logs', 'winston', 'errors', 'phu-%DATE%-error.log'), level: 'error' }),
     ],
 });
 
