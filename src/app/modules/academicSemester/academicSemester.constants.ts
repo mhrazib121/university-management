@@ -17,3 +17,9 @@ export const monthNames: monthNameType[] = [
   'November',
   'December',
 ];
+
+export const SemesterTitleCodeMap: { [key: string]: string } = {
+  Autumn: '01',
+  Summer: '02',
+  Fall: '03',
+};

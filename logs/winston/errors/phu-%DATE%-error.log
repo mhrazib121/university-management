@@ -12,3 +12,43 @@
   }
 ] Thu Jun 15 2023 16:39:07 GMT+0600 (Bangladesh Standard Time) 16:39:7
 [University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 20:45:10 GMT+0600 (Bangladesh Standard Time) 20:45:10
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester code. Semester code should be 01 Thu Jun 15 2023 23:13:42 GMT+0600 (Bangladesh Standard Time) 23:13:42
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 23:14:25 GMT+0600 (Bangladesh Standard Time) 23:14:25
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 23:14:40 GMT+0600 (Bangladesh Standard Time) 23:14:40
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 23:16:51 GMT+0600 (Bangladesh Standard Time) 23:16:51
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 23:17:08 GMT+0600 (Bangladesh Standard Time) 23:17:8
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester code. Semester code should be 02 Thu Jun 15 2023 23:21:40 GMT+0600 (Bangladesh Standard Time) 23:21:40
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "received": "02",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "O2",
+      "03"
+    ],
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Invalid enum value. Expected '01' | 'O2' | '03', received '02'"
+  }
+] Thu Jun 15 2023 23:21:49 GMT+0600 (Bangladesh Standard Time) 23:21:49
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "received": "02",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "O2",
+      "03"
+    ],
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Invalid enum value. Expected '01' | 'O2' | '03', received '02'"
+  }
+] Thu Jun 15 2023 23:23:16 GMT+0600 (Bangladesh Standard Time) 23:23:16
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester code. Semester code should be 02 Thu Jun 15 2023 23:23:55 GMT+0600 (Bangladesh Standard Time) 23:23:55
+[University error] error: 🐱‍🏍 globalErrorHandler ~~ This Semester already exist ! Thu Jun 15 2023 23:24:04 GMT+0600 (Bangladesh Standard Time) 23:24:4
